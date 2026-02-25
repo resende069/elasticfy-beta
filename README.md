@@ -1,80 +1,134 @@
-# 🚀 Elasticfy
+<div align="center">
 
-**Elasticfy** é um sistema completo voltado para **vendedores digitais**, criado para gerenciar vendas online, checkout personalizado, integrações com gateways brasileiros e automações focadas em **alta conversão**.
+# ⚡ Elasticfy
 
-O projeto foi desenvolvido com foco em **performance**, **flexibilidade** e **escalabilidade**, permitindo que vendedores tenham controle total sobre seus processos de venda e monetização.
+### Sistema Inteligente para Vendedores Digitais
 
-> ⚠️ **Versão atual:** `v1.0.0-beta`  
-> O sistema ainda está em fase de testes e evolução contínua.
+Plataforma completa de vendas online com **checkout personalizável**, **alta conversão** e **integrações com o ecossistema brasileiro de pagamentos**.
 
----
+> 🚧 **Versão:** `v1.0.0-beta` — Em fase ativa de testes
 
-## 📌 Sobre o Projeto
+<br>
 
-O **Elasticfy** é uma plataforma privada que fornece infraestrutura para vendas digitais, incluindo:
+[🌐 Produção](https://www.elasticfy.com) •
+[📦 Repositório](https://github.com/resende069/elasticfy) •
+[📧 Contato](mailto:devresende069@gmail.com)
 
-- Checkout altamente personalizável
-- Integrações com gateways de pagamento brasileiros
-- Recuperação de carrinho abandonado
-- Integração com pixels de rastreamento
-- Conversão inteligente baseada em comportamento
-- Comunicação em tempo real
-
-O objetivo é oferecer uma solução moderna para criadores, afiliados e vendedores digitais que precisam de um sistema rápido, confiável e adaptável.
+</div>
 
 ---
 
-## 🧩 Tipo de Arquitetura
+## 📖 Visão Geral
 
-O sistema foi projetado inicialmente como:
+O **Elasticfy** é uma plataforma privada desenvolvida para vendedores digitais que precisam de um sistema robusto, rápido e altamente personalizável para gerenciar vendas online.
 
-✅ **Monolito Modular**
+O projeto nasceu com foco em:
 
-Com estrutura preparada para futura migração parcial ou total para:
+- ✅ Performance
+- ✅ Conversão de vendas
+- ✅ Flexibilidade de checkout
+- ✅ Integrações modernas
+- ✅ Comunicação em tempo real
 
-🔄 **Microservices (planejado)**
-
----
-
-## ⚙️ Funcionalidades Principais
-
-- 🛒 Checkout Personalizável
-- 💳 Integração com Gateways Brasileiros
-- 📉 Recuperação de Carrinho Abandonado
-- 📊 Integração com:
-  - Google Pixel
-  - Facebook Pixel
-- 🧠 Conversão Inteligente
-- 🔄 Comunicação em Tempo Real (WebSocket)
-- 🎨 Templates dinâmicos de checkout
-- 🌐 Gerenciamento de domínios
+A proposta é fornecer uma infraestrutura completa que permita criar experiências de compra otimizadas sem depender de plataformas engessadas.
 
 ---
 
-## 🧱 Tecnologias Utilizadas
+## 🎯 Objetivo do Sistema
 
-### Backend
-- **Node.js** — API principal e regras de negócio
+O Elasticfy busca entregar:
 
-### Frontend
-- **React.js** — Interface e Designer do Checkout
-- **Handlebars** — Renderização de templates HTML dinâmicos
-
-### Comunicação
-- **WebSocket** — Atualizações em tempo real
-
-### Infraestrutura
-- **Cloudflare**
-  - DNS
-  - Segurança
-  - Apontamento de domínios
-
-- **aaPanel**
-  - Gerenciamento de hospedagem
-  - Arquivos e deploy
+- Um **checkout inteligente** focado em conversão
+- Integração nativa com **gateways brasileiros**
+- Automação de recuperação de vendas
+- Personalização total da experiência do usuário
+- Base tecnológica preparada para escala
 
 ---
 
-## 🌍 Ambiente de Produção
+## 🏗️ Arquitetura
 
-O projeto pode ser acessado em:
+### Modelo Atual
+🧱 **Monolito Modular**
+
+O sistema foi estruturado como monolito para acelerar desenvolvimento e manutenção inicial.
+
+### Evolução Planejada
+🔄 Migração gradual para **Microservices**, permitindo:
+
+- Escalabilidade independente
+- Serviços desacoplados
+- Alta disponibilidade
+
+---
+
+## ✨ Funcionalidades
+
+### 🛒 Checkout
+- Checkout totalmente personalizável
+- Templates dinâmicos
+- Alta performance
+- Designer visual com React
+
+### 💳 Pagamentos
+- Integração com gateways brasileiros
+- Estrutura preparada para múltiplos provedores
+
+### 📉 Recuperação de Carrinho
+- Monitoramento de abandono
+- Estratégias automáticas de recuperação
+
+### 📊 Pixels e Tracking
+- Google Pixel
+- Facebook Pixel
+- Eventos personalizados
+
+### 🧠 Conversão Inteligente
+- Ajustes baseados em comportamento do usuário
+- Estrutura para otimização contínua
+
+### 🔄 Tempo Real
+- Atualizações via WebSocket
+- Eventos instantâneos
+
+---
+
+## 🧰 Stack Tecnológica
+
+| Camada | Tecnologia | Função |
+|-------|------------|--------|
+| Backend | **Node.js** | API e regras de negócio |
+| Frontend | **React.js** | Designer e interface do checkout |
+| Templates | **Handlebars** | Renderização HTML dinâmica |
+| Realtime | **WebSocket** | Comunicação em tempo real |
+| Infra | **Cloudflare** | DNS, segurança e domínios |
+| Hosting | **aaPanel** | Gerenciamento de hospedagem |
+
+---
+
+## 📂 Estrutura do Projeto
+
+---
+
+## 🌐 Ambiente de Produção
+
+A versão ativa do sistema pode ser encontrada em:
+
+👉 https://www.elasticfy.com
+
+---
+
+## 🖼️ Screenshots
+
+### 🔐 Login
+![Login](https://i.ibb.co/zTXtv0my/login.png)
+
+### 💳 Checkout
+![Checkout](https://i.ibb.co/rKNrHgTk/Checkout.png)
+
+### 🤝 Afiliação
+![Afiliação](https://i.ibb.co/xtQLJ1Jc/afilia-o.png)
+![Meios](https://i.ibb.co/1JZMBngg/afilia-o-2.png)
+---
+
+> ⚠️ Projeto privado
